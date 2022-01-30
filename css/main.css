@@ -749,6 +749,7 @@ img {
 }
 
 .location {
+  position: relative;
   width: 161px;
   height: 44px;
   color: var(--white-color);
@@ -770,10 +771,24 @@ img {
   .location {
     width: 191px;
     height: 44px;
+    margin-bottom: 0;
+    margin-right: 15px;
   }
 }
 
+.location .btn-loc {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 35px;
+  margin-left: 10px;
+  width: 5px;
+  height: 8px;
+  margin-left: 14px;
+}
+
 .franchise {
+  position: relative;
   width: 161px;
   height: 44px;
   border-radius: 22px;
@@ -795,5 +810,14 @@ img {
     width: 191px;
     height: 44px;
   }
+}
+
+.franchise .btn-fran {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 40px;
+  width: 5px;
+  height: 8px;
 }
 /*# sourceMappingURL=main.css.map */
